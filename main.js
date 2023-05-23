@@ -14,6 +14,7 @@ const mainPage = () => {
     e.preventDefault();
     location.href = "서명진/mj.html";
   });
+
   김다솔.addEventListener("click", (e) => {
     e.preventDefault();
     location.href = "김다솔/ds.html";
