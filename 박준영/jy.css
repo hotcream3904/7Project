@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+button {
+  border: none;
+  background: transparent;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .header {
+  width: 100%;
+  height: 120.8px;
+  display: flex;
+  padding: 0 30px 0 30px;
+  justify-content: space-between;
+}
+
+.container .header .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .header .right-menu {
+  display: flex;
+}
+.container .header .right-menu .button {
+  width: 23px;
+  margin-left: 28px;
+}
+
+.container .side-menu {
+  width: 290px;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.container .side-menu .first-menu {
+  padding-bottom: 55px;
+}
+
+.container .side-menu .first-menu > span {
+  display: block;
+  margin-bottom: 11px;
+  font-size: 17px;
+  font-family: "blair-itc", "Noto Sans KR", sans-serif;
+  letter-spacing: 0.06em !important;
+}
+
+.container .side-menu .second-menu > span {
+  display: block;
+  margin-bottom: 11px;
+  font-size: 14px;
+  font-family: "blair-itc", "Noto Sans KR", sans-serif;
+  letter-spacing: 0.06em !important;
+}
+
+.container .contentContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.container .content {
+  width: calc(100% - 290px);
+  height: calc(100% - 120.8px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: black;
+}
