@@ -60,8 +60,7 @@ body {
   padding-bottom: 55px;
 }
 
-.container .side-menu .first-menu > span {
-  display: block;
+.container .side-menu .first-menu > p {
   margin-bottom: 11px;
   font-size: 17px;
   font-family: "blair-itc", "Noto Sans KR", sans-serif;
@@ -83,8 +82,8 @@ body {
 }
 
 .container .content {
-  width: calc(100% - 290px);
-  height: calc(100% - 120.8px);
+  width: calc(100vw - 290px);
+  height: calc(100vh - 120.8px);
   overflow-y: scroll;
   background-color: #ffff;
   padding-right: 30px;

@@ -1,9 +1,6 @@
 .logo{
     padding-left:40px;
 }
-.no_dot{
-    list-style-type:none;
-}
 .icon-bar{
     float:right;
 
@@ -23,9 +20,7 @@
 .side-bar1{
     margin-top: 30px;
 
-    line-height: 30px;
-
-    
+    line-height: 30px; 
 }
 .side-bar2{
     margin-top: 50px;
@@ -49,5 +44,10 @@ a{
     margin-left:330px;
     margin-bottom:80px;
     line-height:10px;
-
+}
+.img-list{
+    float:left;
+}
+li{
+    list-style-type:none;
 }
