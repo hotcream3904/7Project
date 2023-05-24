@@ -20,6 +20,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -95,8 +96,8 @@ body {
 
 .container .footer {
   padding-top: 62px;
+  padding-bottom: 100px;
   width: 100%;
-  height: 263px;
   font-size: 10px;
   color: gray;
   line-height: 1.6;
