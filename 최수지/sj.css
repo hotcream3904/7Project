@@ -3,19 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 input {
   border: none;
   outline: none;
 }
+
 button {
   border: none;
   background: transparent;
 }
-
 
 .header-top {
   position: fixed;
@@ -25,7 +27,7 @@ button {
   background-color: white;
 }
 
-.logo{
+.logo {
   top: 5%;
   margin-left: 3%;
   position: fixed;
@@ -44,8 +46,6 @@ button {
   position: relative;
 }
 
-
-
 .info {
   position: absolute;
   margin-left: 3%;
@@ -56,24 +56,22 @@ button {
   top: 100px;
   width: 180px;
   height: 0px;
-  background-color:white;
+  background-color: white;
   text-align: left;
   line-height: 1.6;
 }
 
-.info>b{
+.info>b {
   color: #862633;
 }
 
-
-
-.backg{
+.backg {
   padding-top: 0px;
   overflow: hidden;
   outline: none;
 }
 
-.bottom{
+.bottom {
   margin-top: 12%;
   background-color: white;
   color: #808080;
@@ -82,5 +80,3 @@ button {
   width: 100%;
   height: 150px;
 }
-
-

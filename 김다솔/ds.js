@@ -3,7 +3,7 @@ var slideIndex = 0;
 
     function showSlides() {
         var i;
-        var slides = document.getElementsByClassName("mySlides");
+        var slides = document.getElementsByID("mainImg");
         
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
@@ -14,5 +14,5 @@ var slideIndex = 0;
         }
         slides[slideIndex - 1].style.display = "block";
     
-        setTimeout(showSlides, 2000); // 2초마다 이미지가 체인지됩니다
+        setTimeout(showSlides, 2000); 
     }
