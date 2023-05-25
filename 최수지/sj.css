@@ -3,15 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ol,
 ul {
   list-style: none;  
   font-family: "blair-itc", "Noto Sans KR", sans-serif;
 }
+
 input {
   border: none;
   outline: none;
 }
+
 button {
   border: none;
   background: transparent;

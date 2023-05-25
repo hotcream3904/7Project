@@ -388,9 +388,9 @@ template {
 /* NOTE: my css */
 
 body {
-  width: 97%;
+  width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .navtop {
@@ -399,7 +399,7 @@ body {
   align-items: center;
   height: 120px;
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* ! 왜 navtop에 패딩 넣으면 100% 보다 커지는지?  */
@@ -478,12 +478,69 @@ main {
 }
 
 .main {
-  margin-left: 150px
+  margin-left: 150px;
+  width: 100%;
+  overflow: hidden;
 }
 
-main img {
-  width: 80vw;
-  margin: 0 auto;
+.slides-background {
+  margin: 0;
+  padding: 0;
+}
+
+.imgSlide {
+  border-radius: 3%;
+  width: 600px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+#mainImg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+.imgSlide {
+  border-radius: 3%;
+  width: 600px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 .main-bottom {
