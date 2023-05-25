@@ -1,41 +1,21 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  ol,
-  ul {
-    list-style: none;
-  }
-  input {
-    border: none;
-    outline: none;
-  }
-  button {
-    border: none;
-    background: transparent;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+button {
+  border: none;
+  background: transparent;
+}
 
-  .header{
-    display: flex;
-    flex-direction: row;
+/* 기본세팅값 */
 
-  }
-
-  .icon{
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .categories{
-    background-color: antiquewhite;
-  }
-
-  .main{
-    background-color: aquamarine;
-  }
-
-  .footer{
-    background-color: blanchedalmond;
-  }
 
