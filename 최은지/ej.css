@@ -1,3 +1,5 @@
+/* 기본세팅값 */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +18,52 @@ button {
   background: transparent;
 }
 
-/* 기본세팅값 */
+/* 여기서 부터 CSS시작 */
 
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/* 가장 큰 box가 사용자의 화면비율에 따라 보일 수 있도록 100% 값을 줌 */
+
+.container .header {
+  width: 100%;
+  display: flex;
+  height: 120.8px;
+  padding: 0 20px 0 20px;
+  justify-content: space-between;
+}
+
+/* header : width는 container과 마찬가지로 100%로 지정, height는 120.8px로 고정 */
+/* display는 flex 로 지정하여 안에 있는 자식tag들(h_logo, h_icon)을 배치하기 용이하게 설정 */
+/* padding 값으로 양옆의 여백을 주고, justify-content: space-between으로 하여 자식tag들 양옆으로 배치 */
+
+.container .header .h_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* justify-content 는 main axis 방향에서 중간정렬, align-items 는 cross-axis 방향에서 중간정렬 */
+
+.container .header .h_icons {
+  display: flex;
+}
+
+/* 위와 동일하게 적용 */
+
+.container .header .h_icons .icon {
+  width: 23px;
+  margin: 13px;
+}
+
+/* button tag에 img tag를 추가하였고, margin 값으로 icon들을 적절하게 띄워줌 */
+
+
+.container .main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
 
