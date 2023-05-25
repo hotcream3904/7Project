@@ -5,7 +5,8 @@
 }
 ol,
 ul {
-  list-style: none;
+  list-style: none;  
+  font-family: "blair-itc", "Noto Sans KR", sans-serif;
 }
 input {
   border: none;
@@ -16,71 +17,73 @@ button {
   background: transparent;
 }
 
+/* ---여기까지 전체초기화--- */
 
-.header-top {
-  position: fixed;
-  top: 0;
-  left: 0;
+.container {
   width: 100%;
-  background-color: white;
-}
-
-.logo{
-  top: 5%;
-  margin-left: 3%;
+  height: 100%;
   position: fixed;
 }
 
-.icon {
-  margin-left: 90%;
-  top: 5%;
-  position: fixed;
-
-}
-
-.banner_image {
-  left: 18%;
-  top: 80px;
-  position: relative;
-}
-
-
-
-.info {
-  position: absolute;
-  margin-left: 3%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  left: 0px;
-  top: 100px;
-  width: 180px;
-  height: 0px;
-  background-color:white;
-  text-align: left;
-  line-height: 1.6;
-}
-
-.info>b{
-  color: #862633;
-}
-
-
-
-.backg{
-  padding-top: 0px;
-  overflow: hidden;
-  outline: none;
-}
-
-.bottom{
-  margin-top: 12%;
-  background-color: white;
-  color: #808080;
-  margin-left: 18%;
-  font-size: 8pt;
+.container .head-top {
   width: 100%;
-  height: 150px;
+  height: 120.8px;
+  display: flex;
+  padding: 0 30px 0 30px;
+  justify-content: space-between;
 }
 
+.container .title {
+  display: flex;
+  align-items: center;
+}
 
+.container .icon-bar {
+  display: flex;
+}
+.container .icon {
+  width: 23px;
+  margin-left: 28px;
+}
+
+/* ---여기까지 1. 타이틀--- */
+
+.container .side-Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.side-menu {
+  width: 290px;
+  height: 100%;
+  padding: 0 30px;
+  ;
+}
+
+.side-Container .info-1 {
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+.side-Container .info-2 {
+  font-size: 17px;
+}
+
+/* ---여기까지 2.사이드메뉴--- */
+
+.container .banner {
+  width: calc(100% - 290px);
+  height: calc(100% - 120.8px);
+  overflow-y: scroll;
+  padding-right: 30px;
+}
+.container .banner .banner-Image {
+  width: 100%;
+}
+
+/* ---여기까지 3.배너이미지 */
+
+.container .bottom {
+  background-color: antiquewhite;
+}
+
+/* --- 여기까지 4.상세설명 --- */
