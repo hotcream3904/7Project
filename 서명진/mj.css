@@ -7,12 +7,15 @@
 
 .header{
     display: flex;
+    
+    height: 120.8px;
     justify-content: space-between;
     padding-left:40px;
     padding-right: 40px;
 }
 
 .icon-bar{
+    /*한쌍이다*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +30,7 @@
     float:left;
 
     width: 300px;
-    height: 500px;
+    height: 100%;
 
     margin-left:60px;
 }
@@ -55,13 +58,6 @@
     margin-bottom:80px;
     line-height:15px;
 }
-.img-list{
-    float:left;
-}
-li{
-    list-style-type:none;
-}
-
 
 .img-container {
     display: flex;
