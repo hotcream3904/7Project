@@ -60,10 +60,8 @@ button {
 
 /* button tag에 img tag를 추가하였고, margin 값으로 icon들을 적절하게 띄워줌 */
 
-
-.container .main{
+.container .main {
   width: 100%;
   height: 100%;
   display: flex;
 }
-
