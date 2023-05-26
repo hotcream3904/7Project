@@ -24,7 +24,7 @@ button {
   width: 100%;
   height: 100%;
 }
- 
+
 /* 가장 큰 box가 사용자의 화면비율에 따라 보일 수 있도록 100% 값을 줌 */
 
 .container .header {
@@ -87,6 +87,12 @@ button {
   margin-bottom: 11px;
   font-size: 17px;
   font-family: "blair-itc", "Noto Sans KR", sans-serif;
+}
+
+.container .content-container .main {
+  padding-right: 20px;
+  height: calc(100vh - 120.8px);
+  overflow-y: scroll;
 }
 
 #CUEREN {
