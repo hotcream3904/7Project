@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <!-- 페이지 전체 -->
     <div class="container">
       <!-- 헤더 -->
       <div class="header">
@@ -18,44 +19,39 @@
             alt="상단 로고"
           />
         </div>
-        <div class="h_icon">
-          <button class="icon1">
+        <div class="h_icons">
+          <button class="icon">
             <img
               src="https://cdn-pro-web-210-60.cdn-nhncommerce.com/cueren_godomall_com/data/icon/header_icon-search.svg"
               alt="검색"
-              width="16"
-              title=""
             />
           </button>
-          <button class="icon2">
+          <button class="icon">
             <img
+              width="18px"
               src="https://cdn-pro-web-210-60.cdn-nhncommerce.com/cueren_godomall_com/data/icon/icon_cart.svg"
               alt="장바구니"
-              width="12"
-              title=""
             />
           </button>
-          <button class="icon3">
+          <button class="icon">
             <img
               src="https://cdn-pro-web-210-60.cdn-nhncommerce.com/cueren_godomall_com/data/icon/header_icon-02.svg"
-              width="23"
               alt="찜한 목록"
-              title=""
             />
           </button>
-          <button class="icon4">
+          <button class="icon">
             <img
               src="https://cdn-pro-web-210-60.cdn-nhncommerce.com/cueren_godomall_com/data/icon/header_icon-04.svg"
-              width="23"
               alt="마이페이지"
-              title=""
             />
           </button>
         </div>
       </div>
 
-      <!-- 왼쪽 사이드바 카테고리 -->
-      <div class="categories">
+    <!-- 헤더 제외한 전체 : 콘텐츠 콘테이너 -->
+    <div class="content-container">
+      <!-- 카테고리 -->
+      <aside class="categories">
         <div class="shop">
           <p>WOMEN</p>
           <p>MEN</p>
@@ -67,21 +63,23 @@
           <p>로그인</p>
           <p>고객센터</p>
           <p>매장안내</p>
-          <p>ABOUT CUEREN</p>
+          <p id="CUEREN">ABOUT CUEREN</p>
         </div>
-      </div>
+      </aside>
 
-      <!-- 메인페이지+푸터 -->
-      <div class="main">
+      <!-- 메인페이지>푸터 -->
+      <main class="main">
         <img
           src="https://cdn-pro-web-210-60.cdn-nhncommerce.com/cueren_godomall_com/data/skin/front/moment/img/banner/slider_3087015083/ce259d896d90f3138c5f053d940c0444_65651.jpg"
           alt="본문 슬라이드 배너"
+          width="1070px"
+          height="700px"
           title=""
         />
         <div class="footer">
-          <p>(주)더솔라이브러리|강경미|서울특별시 종로구 창덕궁길 79 쿠에른</p>
+          <p>(주)더솔라이브러리&nbsp;| 강경미 &nbsp;| 서울특별시 종로구 창덕궁길 79 쿠에른</p>
           <p>
-            사업자등록번호 : 589-86-00429|2017-서울종로-0224|[사업자정보확인]
+            사업자등록번호 : 589-86-00429&nbsp;|&nbsp;2017-서울종로-0224&nbsp;|&nbsp;[사업자정보확인]
           </p>
           <p>ONLINE STORE : 02-741-0819</p>
           <p>EMAIL : CUEREN@THESOLELIBRARY.ORG</p>
@@ -89,6 +87,7 @@
           <p>이용약관|개인정보처리방침</p>
         </div>
       </div>
+    </main>
     </div>
   </body>
 </html>
