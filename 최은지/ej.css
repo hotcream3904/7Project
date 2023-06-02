@@ -89,7 +89,11 @@ button {
   font-family: "blair-itc", "Noto Sans KR", sans-serif;
 }
 
+<<<<<<< HEAD
+.main{
+=======
 .container .content-container .main {
+>>>>>>> 40fff55ad0ac74e190a88afab2e9a559016d610b
   padding-right: 20px;
   height: calc(100vh - 120.8px);
   overflow-y: scroll;
