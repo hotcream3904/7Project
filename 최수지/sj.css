@@ -25,7 +25,10 @@ button {
 .container {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+}
+
+.head-container{
+  display: flex;
 }
 
 .container .head-top {
@@ -37,10 +40,13 @@ button {
   
 }
 
-.container .title {
+.title {
   display: flex;
+  /* background-color: #808080; */
   align-items: center;
+  flex-flow: wrap-reverse;
 }
+
 
 .container .icon-bar {
   display: flex;
