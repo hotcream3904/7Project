@@ -89,6 +89,12 @@ button {
   font-family: "blair-itc", "Noto Sans KR", sans-serif;
 }
 
+.main{
+  padding-right: 20px;
+  height: calc(100vh - 120.8px);
+  overflow-y: scroll;
+}
+
 #CUEREN {
   font-weight: bold;
   color: salmon;
