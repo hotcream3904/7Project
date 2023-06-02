@@ -4,46 +4,69 @@
     /*요소의 너비와 높이를 균일하게 유지해주는 속성 */
     box-sizing: border-box;
   }
+  ol,
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+button {
+  border: none;
+  background: transparent;
+}
 
 .header{
     display: flex;
     justify-content: space-between;
+
+    height: 120.8px;
     padding-left:40px;
     padding-right: 40px;
 }
 
 .icon-bar{
+    /*한쌍이다*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.container .side-container{
+    width:100%;
+    height:100%;
+
+    display:flex;
 }
 
 .side-bar{
-    float:left;
-
     width: 300px;
-    height: 500px;
+    height: 100%;
 
-    margin-left:60px;
+    padding-left:60px;
 }
+
 .side-bar1{
-    margin-top: 30px;
+    padding-top: 30px;
     /*줄사이 간격*/
     line-height: 30px; 
 }
+
 .side-bar2{
-    margin-top: 50px;
+    padding-top: 50px;
 
     line-height: 30px;
 }
+
+.img-footer-container{
+    width: 100%;
+    height:calc(100vh-120.8px);
+    overflow-y: scroll;
+}
 .img-size{
     width:550px;
-    padding-left: 30px;
+    padding-left:60px;
 }
 
 .footer{
@@ -51,17 +74,10 @@
     color: #808080;
 
     margin-top:80px;
-    margin-left:400px;
+
     margin-bottom:80px;
     line-height:15px;
 }
-.img-list{
-    float:left;
-}
-li{
-    list-style-type:none;
-}
-
 
 .img-container {
     display: flex;
