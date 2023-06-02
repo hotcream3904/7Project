@@ -15,7 +15,7 @@
         border: none;
         background: transparent;
     }
-    
+
 /* 여기까지 초기화 */
 
     .wrap {
@@ -64,5 +64,3 @@
         height: 30px;
         margin-top: 108px;
     }
-
-    /* 여기까지 header */
