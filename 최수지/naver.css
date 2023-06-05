@@ -15,23 +15,26 @@
         border: none;
         background: transparent;
     }
+    
 
 /* 여기까지 초기화 */
 
     .wrap {
         position: relative;
         height: 100%;
-        letter-spacing: -.5px;
+        /* letter-spacing: -.5px; */
     }
+/*     
     div {
         display: block;
-    }
+    } */
 
-    .header.header {
+    .header {
         width: 100%;
         height: 186px;
         padding-bottom: 48px;
     }
+
     .header .header_inner {
         position: relative;
         width: 743px;
@@ -40,6 +43,7 @@
         text-align: center;
         box-sizing: border-box;
     }
+    
     .language {
         position: absolute;
         top: 20px;
@@ -48,13 +52,16 @@
         height: 30px;
         border: 1px solid #ccc;
     }
+    
     #locale_switch {
         border: white;
         font-size: 12px;
         cursor: pointer;
         padding: 4px 10px 6px 8px;
         color: #333;
+        margin-right: 30%;
     }
+    
     .header_inner .logo {
         display: inline-block;
         background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_00_common_978240a6.png);
@@ -64,3 +71,115 @@
         height: 30px;
         margin-top: 108px;
     }
+
+    /* 여기까지 header */
+
+    .login_wrap{
+        box-sizing: border-box;
+        width: 460px;
+        margin: 0 auto;
+    }
+
+    .menu_wrap{
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .menu_item{
+        position: relative;
+        display: table-cell;
+        /* vertical-align: top; */
+    }
+
+.menu_id {
+    display: block;
+    position: relative;
+    height: 61px;
+    padding-top: 17px;
+    border: 1px solid #e3e3e3;
+    border-bottom: 0;
+    border-radius: 6px 6px 0 0;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 2; 
+} 
+
+.menu_qr, .menu_num {
+    display: block;
+    position: relative;
+    height: 61px;
+    padding-top: 17px;
+    border: 1px solid #e3e3e3;
+    border-bottom: 0;
+    border-radius: 6px 6px 0 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 2; 
+} 
+
+.menu_text::before {
+    background-position: -142px -172px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+
+.panel_inner{
+    padding: 20px 28px;
+    border-radius: 0 0 6px 6px;
+    border: 1px solid #e3e3e3;
+}
+
+
+.input_text {
+    position: relative;
+    width: 100%;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+.login_icon{
+    background-image: url(https://ssl.pstatic.net/static/nid/login/m_sp_01_login_008d5216.png);
+    background-size: 266px 225px;
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    margin-top: -8px;
+    background-position: -93px -203px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.input_row{
+    height:50px;
+}
+
+.id_pw_wrap {
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    
+}
+
+
+#pw_line{
+    border-top: 1px solid #dadada;
+}
+
+
+.loginBtn{
+    border-radius: 10px;
+    color:#ffff;
+    background-color: green;
+    width: 400px;
+    height:60px;
+}

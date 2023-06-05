@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="naver.css">
-    <title>네이버 : 로그인</title>
+    <title>네이버 : 회원가입</title>
 </head>
 
 <body>
@@ -24,10 +24,52 @@
             </div>
         </header>
 
-        <div class="content"></div>
+        <div class="content">
+            <div class="login_wrap">
+                <ul class="menu_wrap">
+                    <li class="menu_item">
+                        <a href="#none" id="loinid" class="menu_id" role="tab" aria-selected="true">
+                            <span class="text">ID 로그인</span>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#none" id="lognum" class="menu_num" role="tab" aria-selected="false">
+                            <span class="text">일회용 번호</span>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#none" id="qrcode" class="menu_qr" role="tab" aria-selected="false">
+                            <span class="text">QR코드</span>
+                        </a>
+                    </li>
+                </ul>
+                <form id="frame_login">
+                    <ul class="panel_iteml">
+                        <li class="panel_inner">
+                            <div class="id_pw_wrap">
+                                <div class="input_row" id="id_line">
+                                    <div class="login_cell">
+                                        <span class="login_icon"></span>
+                                    </div>
+                                    <input type="text" id="id" class="input_text" placeholder="아이디"/>
+                                </div>
+
+                                <div class="input_row" id="pw_line">
+                                    <input type="text" id="pw" class="input_text" placeholder="비밀번호" />
+                                </div>
+                            </div>
+                            <button class="loginBtn">로그인</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+
         <div class="footer"></div>
 
     </div>
+
+    <script src="naver.js"></script>
 </body>
 
 </html>
